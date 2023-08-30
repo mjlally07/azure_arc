@@ -3,12 +3,12 @@
 # <--- Change the following environment variables according to your Azure service principal name --->
 
 echo "Exporting environment variables"
-export appId='<Your Azure service principal name>'
-export password='<Your Azure service principal password>'
-export tenantId='<Your Azure tenant ID>'
-export resourceGroup='<Azure resource group name>'
-export arcClusterName='<The name of your k8s cluster as it will be shown in Azure Arc>'
-export appClonedRepo='<The URL for the Azure Arc Jumpstart forked GitHub repository>'
+export appId='d626f14d-efc1-4766-9da4-8c3e8dbc4f86'
+export password='ZlX8Q~iWVlWCPQqiCBel-iTG5XVKuZXcE4ufAbA0'
+export tenantId='16b3c013-d300-468d-ac64-7eda0820b6d3'
+export resourceGroup='rg-arck8s-01'
+export arcClusterName='Arc-MicroK8s-Demo'
+export appClonedRepo='https://github.com/mjlally07/azure-arc-jumpstart-apps'
 export namespace='hello-arc'
 
 # Logging in to Azure using service principal
