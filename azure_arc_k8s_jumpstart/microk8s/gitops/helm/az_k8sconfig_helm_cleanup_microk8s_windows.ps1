@@ -1,11 +1,11 @@
 # <--- Change the following environment variables according to your Azure service principal name --->
 
 Write-Output "Exporting environment variables"
-$appId="<Your Azure service principal name>"
-$password="<Your Azure service principal password>"
-$tenantId="<Your Azure tenant ID>"
-$resourceGroup="<Your resource group name>"
-$arcClusterName="<Your Arc cluster name>"
+$appId="d626f14d-efc1-4766-9da4-8c3e8dbc4f86"
+$password="ZlX8Q~iWVlWCPQqiCBel-iTG5XVKuZXcE4ufAbA0"
+$tenantId="16b3c013-d300-468d-ac64-7eda0820b6d3"
+$resourceGroup="rg-arck8s-01"
+$arcClusterName="Arc-MicroK8s-Demo"
 
 Write-Output "Log in to Azure with Service Principal"
 az login --service-principal --username $appId --password $password --tenant $tenantId
