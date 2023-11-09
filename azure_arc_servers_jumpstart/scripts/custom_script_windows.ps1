@@ -1,4 +1,4 @@
-$chocolateyAppList = "7zip,vscode"
+$chocolateyAppList = "7zip.install,vscode.install"
 
 if ([string]::IsNullOrWhiteSpace($chocolateyAppList) -eq $false -or [string]::IsNullOrWhiteSpace($dismAppList) -eq $false)
 {
