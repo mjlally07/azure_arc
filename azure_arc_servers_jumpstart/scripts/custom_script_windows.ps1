@@ -1,4 +1,4 @@
-$chocolateyAppList = "microsoft-windows-terminal,microsoft-edge,7zip,vscode"
+$chocolateyAppList = "7zip,vscode"
 
 if ([string]::IsNullOrWhiteSpace($chocolateyAppList) -eq $false -or [string]::IsNullOrWhiteSpace($dismAppList) -eq $false)
 {
